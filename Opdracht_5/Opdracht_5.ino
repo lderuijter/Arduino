@@ -7,39 +7,37 @@ const int secondButtonPin = 7;
 const int servoPin = 3;
 
 int currentAngle = 0;
+const int debounce = 2;
+
+enum Direction { FORWARD, BACKWARD };
+Direction dir = FORWARD;
 
 void moveServo(int forwardTime, int waitingTime, int backwardsTime) {
   int stepDelayForward = forwardTime / 120;
   int stepDelayBackwards = backwardsTime / 120;
 
-  static int state = 0; // 0 = forwards, 1 = wait, 2 = backwards
+  if (dir == FORWARD) {
+    currentAngle++;
+    if (currentAngle >= 120) {
+      delay(waitingTime);
+      dir = BACKWARD;
+    }
+    delay(stepDelayForward);
+  }
 
-  if (state == 0) {
+  else {
+    currentAngle--;
+    if (currentAngle <= 0) {
+      dir = FORWARD;
+    }
+    delay(stepDelayBackwards);
+  }
   servoMotor.write(currentAngle);
+  delay(debounce);
 
-  if (digitalRead(firstButtonPin) == HIGH) {
-  state = 1;
-  return;
-}
-  currentAngle++;
-  delay(stepDelayForward);
-}
-
-  else if (state == 1) {
-  delay(waitingTime);
-  state = 2;
-}
-
-  else if (state == 2) {
-  servoMotor.write(currentAngle);
-
-  if (digitalRead(secondButtonPin) == HIGH) {
-  state = 0;
-  return;
-}
-  currentAngle--;
-  delay(stepDelayBackwards);
-}
+  if (digitalRead(firstButtonPin) == HIGH || digitalRead(secondButtonPin) == HIGH) {
+    return;
+  }
 }
 
 void setup() {
@@ -55,14 +53,12 @@ void loop() {
   bool secondButton = digitalRead(secondButtonPin) == LOW;
 
   if (firstButton && secondButton) {
-  moveServo(3000, 5000, 500);
-}
-
+    moveServo(3000, 5000, 500);
+  }
   else if (firstButton) {
-  moveServo(3000, 0, 3000);
-}
-
+    moveServo(3000, 0, 3000);
+  }
   else if (secondButton) {
-  moveServo(500, 0, 500);
-}
+    moveServo(500, 0, 500);
+  }
 }
