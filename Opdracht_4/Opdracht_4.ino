@@ -1,5 +1,5 @@
 // Alle pins die ik gebruik
-const int pinArray[] = {13, 12, 9, 6, 3, 2};
+const int pinArray[] = {13, 12, 9, 6, 4, 3};
 // Aantal pins
 const int pinAmount = 6;
 // Analoge pot pin
