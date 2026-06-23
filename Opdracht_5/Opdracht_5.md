@@ -26,8 +26,8 @@ Sketch maken, tinkeren, testen en opbouwen.
 2 weerstanden op 220 Ohm
 ***
 
-## [Video]
+## [Video](https://github.com/lderuijter/Arduino/blob/main/Opdracht_5/Opdracht_5.mp4)
 
-## [Code]
+## [Code](https://github.com/lderuijter/Arduino/blob/main/Opdracht_5/Opdracht_5.ino)
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)
