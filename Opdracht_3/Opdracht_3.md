@@ -16,8 +16,8 @@ Een knop
 3 weerstanden op 220 Ohm
 ***
 
-## [Video]
+## [Video](https://github.com/lderuijter/Arduino/blob/main/Opdracht_3/Opdracht_3.mp4)
 
-## [Code]
+## [Code](https://github.com/lderuijter/Arduino/blob/main/Opdracht_3/Opdracht_3.ino)
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)
