@@ -22,8 +22,8 @@ Daarna sketch maken, tinkeren, testen en opbouwen.
 ### Research naar werking gedaan met ChatGPT
 Gevraagd hoe de Ultrasonic sensor werkt, welke basiscode die nodig heeft (om te testen) en hoe ik die moet aansluiten. 
 
-## [Video]
+## [Video](https://github.com/lderuijter/Arduino/blob/main/Opdracht_6/Opdracht_6.mp4)
 
-## [Code]
+## [Code](https://github.com/lderuijter/Arduino/blob/main/Opdracht_6/Opdracht_6.ino)
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)
