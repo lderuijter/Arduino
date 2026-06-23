@@ -1,4 +1,7 @@
 ## De opdracht: 
+Sluit 2 LED’s aan op poort 10 en 13. 
+Laat de LED’s om en om knipperen ( 2s / 2s ). 
+Sketch maken, tinkeren, testen en opbouwen. 
 
 ***
 
@@ -6,7 +9,7 @@
 
 ***
 
-## Componenten:
+## Componenten en werking:
 
 ***
 
