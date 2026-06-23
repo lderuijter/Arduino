@@ -11,10 +11,15 @@ Sketch maken, tinkeren, testen en opbouwen.
 
 ## Afbeedling:
 <img width="990" height="797" alt="image" src="https://github.com/user-attachments/assets/66ae4d76-5efd-4a4e-971a-997ecccb14e0" />
+
+## Componenten:
+1 Potmeter
+6 led lampjes
+6 weerstanden op 220 Ohm
 ***
 
-## Componenten en werking:
+## [Video]
 
-***
+## [Code]
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)

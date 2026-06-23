@@ -13,10 +13,17 @@ Daarna sketch maken, tinkeren, testen en opbouwen.
 
 ## Afbeedling:
 <img width="917" height="771" alt="image" src="https://github.com/user-attachments/assets/e015d2ae-f98f-4cc5-929f-873b6739e97b" />
+
+## Componenten:
+1 HC-SR04 Ultrasonic sensor
+1 Servo motor
 ***
 
-## Componenten en werking:
+### Research naar werking gedaan met ChatGPT
+Gevraagd hoe de Ultrasonic sensor werkt, welke basiscode die nodig heeft (om te testen) en hoe ik die moet aansluiten. 
 
-***
+## [Video]
+
+## [Code]
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)

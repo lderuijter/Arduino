@@ -6,10 +6,14 @@ Sketch maken, tinkeren, testen en opbouwen.
 
 ## Afbeedling:
 <img width="962" height="750" alt="image" src="https://github.com/user-attachments/assets/94f474fa-c89e-4160-ac82-f9d2135602b6" />
+
+## Componenten:
+8 led lampjes
+8 weerstanden op 220 Ohm
 ***
 
-## Componenten en werking:
+## [Video]
 
-***
+## [Code]
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)

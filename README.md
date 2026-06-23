@@ -8,3 +8,7 @@
 4. [Opdracht 4](https://github.com/lderuijter/Arduino/tree/main/Opdracht_4)
 5. [Opdracht 5](https://github.com/lderuijter/Arduino/tree/main/Opdracht_5)
 6. [Opdracht 6](https://github.com/lderuijter/Arduino/tree/main/Opdracht_6)
+
+## Bronnen (APA 7)
+OpenAI. (2026). ChatGPT (GPT-5.3-mini) [Large language model]. https://chatgpt.com/
+- Ik heb AI gebruikt voor aanbevelingen en om mijn code te bewerken. 

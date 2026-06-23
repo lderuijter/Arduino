@@ -19,10 +19,15 @@ Sketch maken, tinkeren, testen en opbouwen.
 
 ## Afbeedling:
 <img width="942" height="667" alt="image" src="https://github.com/user-attachments/assets/620fad96-54a9-423b-a2d4-d12105e3bfcb" />
+
+## Componenten:
+1 Servo motor
+2 Knoppen
+2 weerstanden op 220 Ohm
 ***
 
-## Componenten en werking:
+## [Video]
 
-***
+## [Code]
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)

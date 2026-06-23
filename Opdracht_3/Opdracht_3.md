@@ -9,10 +9,15 @@ Sketch maken, tinkeren, testen en opbouwen.
 
 ## Afbeedling:
 <img width="977" height="748" alt="image" src="https://github.com/user-attachments/assets/5e5491af-c812-4e9a-bdcb-10f0295696ab" />
+
+## Componenten:
+Een knop
+2 led lampjes
+3 weerstanden op 220 Ohm
 ***
 
-## Componenten en werking:
+## [Video]
 
-***
+## [Code]
 
 Uitleg van de code is te vinden in de comments (.ino bestanden)
