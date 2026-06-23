@@ -26,6 +26,7 @@ void loop() {
   // Veranderen van richting aan het einde
   if (current == 7) {
     direction = -1;
+  // Normale richting aan het begin
   } else if (current == 0) {
     direction = 1;
   }
