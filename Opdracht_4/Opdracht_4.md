@@ -10,7 +10,7 @@ Sketch maken, tinkeren, testen en opbouwen.
 ***
 
 ## Afbeedling:
-
+<img width="990" height="797" alt="image" src="https://github.com/user-attachments/assets/66ae4d76-5efd-4a4e-971a-997ecccb14e0" />
 ***
 
 ## Componenten en werking:
