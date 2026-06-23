@@ -12,7 +12,7 @@ Daarna sketch maken, tinkeren, testen en opbouwen.
 ***
 
 ## Afbeedling:
-
+<img width="917" height="771" alt="image" src="https://github.com/user-attachments/assets/e015d2ae-f98f-4cc5-929f-873b6739e97b" />
 ***
 
 ## Componenten en werking:
